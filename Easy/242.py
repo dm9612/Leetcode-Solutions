@@ -11,3 +11,12 @@ class Solution:
             if countS!=countT:
                 return False
         return True
+
+    
+            OR
+    
+return Counter(s) == Counter(t)
+
+            OR
+
+return sorted(s) == sorted(t)
